@@ -1,0 +1,81 @@
+2. 
+Terminal Output:
+/mnt/scratch/danielsu24
+
+Answer:
+My home directory path is /mnt/scratch/danielsu24
+
+3.
+Terminal Outpit:
+uid=1260(danielsu24) gid=1261(danielsu24) groups=1261(danielsu24)
+
+Answer:
+My UID is 1260. I belong to group 1261.
+
+4.
+Terminal Output:
+meminfo
+cpuinfo
+
+Answer:
+meminfo contains information about the memory. cpuinfo contains information about the cpu
+
+5.
+Terminal Output:
+
+MemTotal:       73080640 kB
+MemFree:        11470144 kB
+MemAvailable:   44979392 kB
+Buffers:          529408 kB
+Cached:         35620608 kB
+SwapCached:            0 kB
+Active:         13623360 kB
+Inactive:       27084544 kB
+Active(anon):    2525632 kB
+
+
+Answer:
+Total memory is 73080640kB or 73.1 GB
+
+6.
+Terminal Output:
+processor       : 255
+cpu             : POWER8 (architected), altivec supported
+clock           : 3425.000000MHz
+revision        : 2.1 (pvr 004b 0201)
+
+timebase        : 512000000
+platform        : pSeries
+model           : IBM,8247-22L
+machine         : CHRP IBM,8247-22L
+MMU             : Hash
+
+Answer:
+There are 255 processors. They are named POWER8 (architected). The processing speed is 3.425 GHz
+
+7. 
+Terminal Output:
+
+NAME="Red Hat Enterprise Linux"
+VERSION="8.6 (Ootpa)"
+ID="rhel"
+ID_LIKE="fedora"
+VERSION_ID="8.6"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="Red Hat Enterprise Linux 8.6 (Ootpa)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:redhat:enterprise_linux:8::baseos"
+HOME_URL="https://www.redhat.com/"
+DOCUMENTATION_URL="https://access.redhat.com/documentation/red_hat_enterprise_linux/8/"
+BUG_REPORT_URL="https://bugzilla.redhat.com/"
+
+REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 8"
+REDHAT_BUGZILLA_PRODUCT_VERSION=8.6
+REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
+REDHAT_SUPPORT_PRODUCT_VERSION="8.6"
+
+
+Answer:
+The OS version is 8.6 (Oopta). The files name is os-release.
+
+8.
