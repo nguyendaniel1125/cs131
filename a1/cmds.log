@@ -27,4 +27,6 @@ cat /proc/cpuinfo | grep 'clock
 ls /etc
 cat /etc/os-release
 
-8. 
+8.
+grep '2019-05-12' 2019-05.csv > may12.csv wc -l may12.csv
+awk -F, '{sum += $17} END {print sum}' may12.csv 
